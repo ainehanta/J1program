@@ -1,0 +1,21 @@
+#include<stdio.h>
+main (void)
+{
+  int a=0,s=0;
+
+  while(a >= 0)
+  {
+    printf("整数を入力してください。"); scanf("%d",&a);
+
+    if (a >= 0)
+    {
+      s=s+a;
+    }
+    else
+    {
+      a=-1;
+    }
+  }
+
+  printf("合計＝%d\n",s);
+}

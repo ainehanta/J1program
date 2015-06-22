@@ -1,0 +1,14 @@
+#include<stdio.h>
+main (void)
+{
+  int i=0,s=0,t;
+  
+  while (s < 100)
+  {
+    i++;
+    t=i*i;
+    s=s+t;
+  }
+
+  printf("%d\n",i);
+}
